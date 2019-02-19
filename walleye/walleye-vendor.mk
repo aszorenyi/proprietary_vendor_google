@@ -81,7 +81,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     com.quicinc.cne.api-V1.0-java \
     ConnMO \
-    datastatusnotification \
     DCMO \
     DiagMon \
     DMService \

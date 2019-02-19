@@ -31,16 +31,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := datastatusnotification
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := EaselServicePrebuilt
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/app/EaselServicePrebuilt/EaselServicePrebuilt.apk
