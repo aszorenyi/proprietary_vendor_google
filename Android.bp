@@ -124,81 +124,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "CarrierServices",
-	owner: "google",
-	apk: "proprietary/product/priv-app/CarrierServices/CarrierServices.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "CarrierSettings",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierSettings/CarrierSettings.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "CarrierWifi",
-	owner: "google",
-	apk: "proprietary/product/priv-app/CarrierWifi/CarrierWifi.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "ConnMO",
-	owner: "google",
-	apk: "proprietary/product/priv-app/ConnMO/ConnMO.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "DCMO",
-	owner: "google",
-	apk: "proprietary/product/priv-app/DCMO/DCMO.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "DMService",
-	owner: "google",
-	apk: "proprietary/product/priv-app/DMService/DMService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "DevicePersonalizationPrebuiltPixel2",
-	owner: "google",
-	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2/DevicePersonalizationPrebuiltPixel2.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -328,30 +256,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "TetheringEntitlement",
-	owner: "google",
-	apk: "proprietary/product/priv-app/TetheringEntitlement/TetheringEntitlement.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "WfcActivation",
-	owner: "google",
-	apk: "proprietary/product/priv-app/WfcActivation/WfcActivation.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "obdm_stub",
 	owner: "google",
 	apk: "proprietary/product/priv-app/obdm_stub/obdm_stub.apk",
@@ -361,18 +265,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-android_app_import {
-	name: "CarrierSetup",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/CarrierSetup/CarrierSetup.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
 }
 
 dex_import {

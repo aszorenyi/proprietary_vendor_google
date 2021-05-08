@@ -150,8 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/product/etc/CarrierSettings/xfinity_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/xfinity_us.pb \
     vendor/google/walleye/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
     vendor/google/walleye/proprietary/product/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.omadm.service.xml \
-    vendor/google/walleye/proprietary/product/etc/permissions/com.android.sdm.plugins.connmo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.connmo.xml \
-    vendor/google/walleye/proprietary/product/etc/permissions/com.android.sdm.plugins.dcmo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.dcmo.xml \
     vendor/google/walleye/proprietary/product/etc/permissions/com.android.sdm.plugins.diagmon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.diagmon.xml \
     vendor/google/walleye/proprietary/product/etc/permissions/com.android.sdm.plugins.sprintdm.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
     vendor/google/walleye/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.hardwareinfo.xml \
@@ -188,13 +186,7 @@ PRODUCT_PACKAGES += \
     VZWAPNLib \
     AmbientSensePrebuilt \
     AppDirectedSMSService \
-    CarrierServices \
     CarrierSettings \
-    CarrierWifi \
-    ConnMO \
-    DCMO \
-    DMService \
-    DevicePersonalizationPrebuiltPixel2 \
     DiagMon \
     EuiccGoogle \
     EuiccSupportPixel \
@@ -205,10 +197,7 @@ PRODUCT_PACKAGES += \
     OBDM_Permissions \
     SprintDM \
     SprintHM \
-    TetheringEntitlement \
-    WfcActivation \
     obdm_stub \
-    CarrierSetup \
     cneapiclient \
     com.google.android.camera.experimental2017 \
     com.quicinc.cne.api-V1.0-java \
